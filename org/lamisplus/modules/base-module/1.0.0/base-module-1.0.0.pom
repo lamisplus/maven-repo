@@ -50,6 +50,7 @@
 	<properties>
 		<build.revision>development</build.revision>
 		<jasperreports.version>6.16.0</jasperreports.version>
+		<mapstruct.version>1.4.2.Final</mapstruct.version>
 		<apache.poi.version>4.1.2</apache.poi.version>
 		<testcontainers.version>1.15.1</testcontainers.version>
 		<jjwt.version>0.11.2</jjwt.version>
@@ -90,6 +91,12 @@
 			<artifactId>spring-test-dbunit</artifactId>
 			<version>1.3.0</version>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mapstruct</groupId>
+			<artifactId>mapstruct</artifactId>
+			<version>${mapstruct.version}</version>
 		</dependency>
 
 		<dependency>
